@@ -44,7 +44,7 @@ h3 {
 
 .location{
   border-bottom: 1px solid gray;
-  width: 100%
+  width: 100%;
   bacground-color: white;
 }
 
@@ -54,10 +54,10 @@ h3 {
 }
 
 .location:hover, .content:hover, .arrow:hover {
-  background-color: white;
+  background-color: grey;
 }
 
 .restaurant-list {
-  padding-top: 50px;
-  margin: 20%
+  margin: 20%;
+  background-color: white;
 }
