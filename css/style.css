@@ -14,10 +14,11 @@ body {
 }
 
 nav {
-  margin: 0 auto;
+  margin-bottom: 20em;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 405px;
+  background: #000
 }
 
 div{
@@ -45,12 +46,15 @@ h3 {
 .location{
   border-bottom: 1px solid gray;
   width: 100%;
-  bacground-color: white;
+  background-color: white;
 }
 
 .arrow-left {
-  margin: .5em;
   background-color: black;
+  /* margin-top: .5em;
+  display: block;
+  width: 10%;
+  padding: 2rem .5rem; */
 }
 
 .location:hover, .content:hover, .arrow:hover {
@@ -58,6 +62,6 @@ h3 {
 }
 
 .restaurant-list {
-  margin: 20%;
   background-color: white;
+  padding-top: 50px
 }
